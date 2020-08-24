@@ -6,9 +6,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "@types/deep-equal": "^1.0.1",
+    "@types/jsonpath": "^0.2.0",
+    "@types/styled-components": "^5.1.2",
+    "deep-equal": "^2.0.3",
+    "jsonpath": "^1.0.2",
+    "react": "^0.0.0-experimental-94c0244ba",
+    "react-dom": "^0.0.0-experimental-94c0244ba",
+    "react-dropzone": "^11.0.3",
+    "react-json-view": "^1.19.1",
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.1.1",
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.tree-element {
+  margin: 0;
+  position: relative;
+}
+
+div.tree-element:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  height: calc(100% - 24px);
+}
+
+.toggler {
+  position: absolute;
+  top: 6px;
+  left: -10px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 10px solid gray;
+  cursor: pointer;
+}
+
+.toggler.closed {
+  transform: rotate(90deg);
+}
+
+.collapsed {
+  display: none;
+}
